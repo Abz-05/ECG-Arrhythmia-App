@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Data
+data/
+*.csv
+*.xls
+*.xlsx
+*.zip
+*.tar.gz
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Project specific
+# We want to KEEP the models for deployment, so we explicitly un-ignore them if they were caught by a broader rule (though they aren't here)
+# But just to be safe and clear:
+!models/
+!models/*.pth
